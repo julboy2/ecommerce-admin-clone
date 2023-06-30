@@ -8,3 +8,5 @@ https://ui.shadcn.com/docs/installation
 <br />
 #### 인증 , 권한 , 소셜로그인
 https://dashboard.clerk.com/
+<br />
+https://clerk.com/docs/nextjs/get-started-with-nextjs : next.js 세팅 
