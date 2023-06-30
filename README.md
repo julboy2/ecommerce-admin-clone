@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=5miHyP6lExg&t=2s
 <br />
-33:00
+41:00
 <br /><br />
 
 ### 공유 라이브러리 UI : 세팅도 참고할것
@@ -11,9 +11,8 @@ https://dashboard.clerk.com/
 <br />
 https://clerk.com/docs/nextjs/get-started-with-nextjs : next.js 세팅 
 
+<br />
+<br />
 
-<br />
-<br />
 #### 단축키
-
 - Ctrl + shift + p + reload window (visual studio 재부팅 )
