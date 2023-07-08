@@ -18,12 +18,14 @@ npm install -D prisma <br />
 npm install @prisma/client <br />
 npx prisma init : prisma 폴더 생성됨 <br />
 <br />
+
+#### plenetscale 세팅방법
 https://planetscale.com/
 <br />
-1. create 선택한다.
+create 선택해서 서비스생성
 ![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
 
-
+<br />
 <br />
 prisma/schema.prisma 에 있는 model 을 orm 에적용 이명령후부터는 인텔리센스가 동작한다. <br />
 > npx prisma generate
