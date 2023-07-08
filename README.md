@@ -13,7 +13,7 @@ https://clerk.com/docs/nextjs/get-started-with-nextjs : next.js 세팅
 
 <br />
 
-# prisma 설치
+#### prisma 설치
 npm install -D prisma <br />
 npm install @prisma/client <br />
 npx prisma init : prisma 폴더 생성됨 <br />
