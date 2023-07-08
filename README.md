@@ -30,6 +30,12 @@ create 선택해서 서비스생성
 Ready to comment to your database? 클릭해서 초기 비밀번호세팅
 <br />
 <br />
+![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/e36750e4-d99d-43b0-b18a-8469386c6c19)
+
+<br />
+Create password  클릭
+<br />
+<br />
 prisma/schema.prisma 에 있는 model 을 orm 에적용 이명령후부터는 인텔리센스가 동작한다. <br />
 > npx prisma generate
 <br />
