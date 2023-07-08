@@ -26,6 +26,10 @@ create 선택해서 서비스생성
 ![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
 
 <br />
+
+![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/c7158e59-f3b7-42ae-b768-4c00f5a014b4)
+Ready to comment to your database? 클릭해서 초기 비밀번호세팅
+<br />
 <br />
 prisma/schema.prisma 에 있는 model 을 orm 에적용 이명령후부터는 인텔리센스가 동작한다. <br />
 > npx prisma generate
