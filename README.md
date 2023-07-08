@@ -20,6 +20,10 @@ npx prisma init : prisma 폴더 생성됨 <br />
 <br />
 https://planetscale.com/
 <br />
+1. ![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
+
+
+<br />
 prisma/schema.prisma 에 있는 model 을 orm 에적용 이명령후부터는 인텔리센스가 동작한다. <br />
 > npx prisma generate
 <br />
