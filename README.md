@@ -19,7 +19,10 @@ npm install @prisma/client <br />
 npx prisma init : prisma 폴더 생성됨 <br />
 <br />
 https://planetscale.com/
-<br /><br />
+<br />
+prisma/schema.prisma 에 있는 model 을 db 에적용 <br />
+> npx prisma generate
+<br />
 
 #### 단축키
 - Ctrl + shift + p + reload window (visual studio 재부팅 )
