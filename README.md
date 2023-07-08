@@ -20,7 +20,8 @@ npx prisma init : prisma 폴더 생성됨 <br />
 <br />
 https://planetscale.com/
 <br />
-1. ![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
+1. create 선택한다.
+![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
 
 
 <br />
