@@ -25,8 +25,7 @@ https://planetscale.com/
 create 선택해서 서비스생성
 ![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/d35e9d34-29af-4192-8672-7ac196170ca8)
 
-<br />
-![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/c7158e59-f3b7-42ae-b768-4c00f5a014b4)
+![image](https://github.com/julboy2/ecommerce-admin-clone/assets/6093105/adea84f9-09fb-4501-a4d2-e4498ecc3ded)
 <br />
 Ready to comment to your database? 클릭해서 초기 비밀번호세팅
 <br />
