@@ -20,8 +20,11 @@ npx prisma init : prisma 폴더 생성됨 <br />
 <br />
 https://planetscale.com/
 <br />
-prisma/schema.prisma 에 있는 model 을 db 에적용 <br />
+prisma/schema.prisma 에 있는 model 을 orm 에적용 이명령후부터는 인텔리센스가 동작한다. <br />
 > npx prisma generate
+<br />
+prisma/schema.prisma 에 있는 model 을 db 에적용 <br />
+> npx prisma db push
 <br />
 
 #### 단축키
