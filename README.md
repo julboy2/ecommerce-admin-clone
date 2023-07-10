@@ -17,6 +17,7 @@ https://clerk.com/docs/nextjs/get-started-with-nextjs : next.js 세팅
 npm install -D prisma <br />
 npm install @prisma/client <br />
 npx prisma init : prisma 폴더 생성됨 <br />
+** npx prisma migrate reset  : 데이터 모두 지울때 주의할것 **
 <br />
 
 #### plenetscale 세팅방법
