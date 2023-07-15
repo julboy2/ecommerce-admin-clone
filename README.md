@@ -1,6 +1,6 @@
 https://www.youtube.com/watch?v=5miHyP6lExg&t=2s
 <br />
-3:31:00
+3:50:00
 <br /><br />
 
 ### 공유 라이브러리 UI : 세팅도 참고할것
