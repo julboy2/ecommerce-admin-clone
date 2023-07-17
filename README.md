@@ -10,9 +10,10 @@ https://ui.shadcn.com/docs/installation
 https://dashboard.clerk.com/
 <br />
 https://clerk.com/docs/nextjs/get-started-with-nextjs : next.js 세팅 
-
 <br />
-
+### 파일업로드
+https://cloudinary.com/
+<br />
 #### prisma 설치
 npm install -D prisma <br />
 npm install @prisma/client <br />
