@@ -10,18 +10,18 @@ export async function POST(
     const { userId } = auth()
     const body = await req.json()
 
-    const { name, value } = body
+    const { label, imageUrl } = body
 
     if (!userId) {
       return new NextResponse('Unauthenticated', { status: 401 })
     }
 
-    if (!name) {
-      return new NextResponse('Name is required', { status: 400 })
+    if (!label) {
+      return new NextResponse('Label is required', { status: 400 })
     }
 
-    if (!value) {
-      return new NextResponse('Value is required', { status: 400 })
+    if (!imageUrl) {
+      return new NextResponse('Image URL is required', { status: 400 })
     }
 
     if (!params.storeId) {
@@ -39,17 +39,17 @@ export async function POST(
       return new NextResponse('Unauthenticated', { status: 403 })
     }
 
-    const size = await prismadb.size.create({
+    const billboard = await prismadb.billboard.create({
       data: {
-        name,
-        value,
+        label,
+        imageUrl,
         storeId: params.storeId,
       },
     })
 
-    return NextResponse.json(size)
+    return NextResponse.json(billboard)
   } catch (error) {
-    console.log('[SIZES_POST]', error)
+    console.log('[BILLBOARDS_POST]', error)
     return new NextResponse('Interal error', { status: 500 })
   }
 }
@@ -63,15 +63,15 @@ export async function GET(
       return new NextResponse('Store id is required', { status: 400 })
     }
 
-    const sizes = await prismadb.size.findMany({
+    const billboards = await prismadb.billboard.findMany({
       where: {
         storeId: params.storeId,
       },
     })
 
-    return NextResponse.json(sizes)
+    return NextResponse.json(billboards)
   } catch (error) {
-    console.log('[SIZES_GET', error)
+    console.log('[BILLBOARDS_GET', error)
     return new NextResponse('Internal error', { status: 500 })
   }
 }
